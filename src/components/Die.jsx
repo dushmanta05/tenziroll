@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Die = ({value, isHeld, holdDice}) => {
+const Die = ({ value, isHeld, holdDice }) => {
   const styles = {
-    backgroundColor: isHeld ? "#59E391" : "white"
-  }
+    backgroundColor: isHeld ? "#59E391" : "white",
+  };
   return (
-    <div className='die-face' onClick={holdDice} style={styles}>
-      <h2 className='die-num'>{value}</h2>
+    <div className="die-face" onClick={holdDice} style={styles}>
+      <h2 className="die-num">{value}</h2>
     </div>
-  )
-}
+  );
+};
 
-export default Die
+export default Die;
